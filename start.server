@@ -1,0 +1,7 @@
+#!/bin/bash
+rm -rf config/*.RPT
+rm -rf config/*.log
+rm -rf profiles/*.RPT
+rm -rf profiles/*.log
+#./DayZServer -config=serverDZ.cfg -port=2302 -BEpath=battleye -profiles=profiles -dologs -adminlog -netlog -freezecheck -cpuCount=2
+./DayZServer -config=serverDZ.cfg -port=2302 -BEpath=battleye -profiles=profiles -freezecheck -cpuCount=2

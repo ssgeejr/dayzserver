@@ -1,0 +1,6 @@
+#!/bin/bash
+rm -rf config/*.RPT
+rm -rf config/*.log
+rm -rf profiles/*.RPT
+rm -rf profiles/*.log
+rm -rf mpmissions/dayzOffline.chernarusplus/storage_1
