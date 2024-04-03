@@ -1,0 +1,6 @@
+#https://www.reddit.com/r/dayzmods/comments/sfgf62/linux_experimental_server_mods/
+This is the how to ---^
+
+#https://steamcommunity.com/sharedfiles/filedetails/?id=2270215132
+
+/opt/servers/steamcmd/steamcmd.sh  +force_install_dir ./mods +login $STEAMUSER +workshop_download_item 221100 2270215132 +quit
