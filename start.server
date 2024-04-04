@@ -5,4 +5,4 @@ rm -rf profiles/*.RPT
 rm -rf profiles/*.log
 #./DayZServer -config=serverDZ.cfg -port=2302 -BEpath=battleye -profiles=profiles -dologs -adminlog -netlog -freezecheck -cpuCount=2
 #./DayZServer -config=serverDZ.cfg -port=2302 -BEpath=battleye -profiles=profiles -freezecheck -cpuCount=2
-./DayZServer -config=serverDZ.cfg -port=2302 "-mod=mods/@AmmoStackBullet;mods/@CF;mods/@BasicMap;mods/@CodeLock;mods/@MMGBaseStorage;mods/@SchanaModCompass;mods/@UndergroundBases;mods/@Water-ResistantMilitaryGear;" -BEpath=battleye -profiles=profiles -freezecheck -cpuCount=2
+./DayZServer -config=serverDZ.cfg -port=2302 "-mod=mods/@AmmoStackBullet;mods/@CF;mods/@BasicMap;mods/@CodeLock;mods/@MMGBaseStorage;mods/@SchanaModCompass;mods/@UndergroundBases;mods/@Water-ResistantMilitaryGear;mods/@ImmersivePlacing;mods/@WindstridesClothingPack;mods/@DayZCamoOverhaul;mods/@DabsFramework;mods/@DayZExpansionCore;mods/@zSpawnSelection;mods/@DayZExpansion;" -BEpath=battleye -profiles=profiles -freezecheck -cpuCount=2
