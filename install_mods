@@ -7,7 +7,6 @@ This is the how to ---^
 #BasicMap
 /opt/servers/steamcmd/steamcmd.sh  +force_install_dir /opt/servers/dayz-server/mods +login $STEAMUSER +workshop_download_item 221100 2270215132 +quit
 
-
 Immersive Placing		2521460498
 WindstridesClothingPack	1797720064
 DayZ Camo Overhaul		2452096533
@@ -27,11 +26,11 @@ DayZ-Expansion			2116151222
 
 
 cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2521460498/keys/*.bikey /opt/servers/dayz-server/keys/
-cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/1797720064/keys/*.bikey /opt/servers/dayz-server/keys/
-cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2452096533/keys/*.bikey /opt/servers/dayz-server/keys/
+cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/1797720064/Keys/*.bikey /opt/servers/dayz-server/keys/
+cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2452096533/Keys/*.bikey /opt/servers/dayz-server/keys/
 cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2545327648/keys/*.bikey /opt/servers/dayz-server/keys/
 cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2291785308/keys/*.bikey /opt/servers/dayz-server/keys/
-cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2017605880/keys/*.bikey /opt/servers/dayz-server/keys/
+cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2017605880/Keys/*.bikey /opt/servers/dayz-server/keys/
 cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2116151222/keys/*.bikey /opt/servers/dayz-server/keys/
 
 cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2521460498 /opt/servers/dayz-server/mods/@ImmersivePlacing
@@ -41,7 +40,4 @@ cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2545327648 /o
 cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2291785308 /opt/servers/dayz-server/mods/@DayZExpansionCore
 cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2017605880 /opt/servers/dayz-server/mods/@zSpawnSelection
 cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2116151222 /opt/servers/dayz-server/mods/@DayZExpansion
-
-
-mods/@ImmersivePlacing;mods/@WindstridesClothingPack;mods/@DayZCamoOverhaul;mods/@DabsFramework;mods/@DayZExpansionCore;mods/@zSpawnSelection;mods/@DayZExpansion
 
