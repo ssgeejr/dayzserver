@@ -4,3 +4,5 @@ This is the how to ---^
 #https://steamcommunity.com/sharedfiles/filedetails/?id=2270215132
 
 /opt/servers/steamcmd/steamcmd.sh  +force_install_dir ./mods +login $STEAMUSER +workshop_download_item 221100 2270215132 +quit
+#BasicMap
+/opt/servers/steamcmd/steamcmd.sh  +force_install_dir /opt/servers/dayz-server/mods +login $STEAMUSER +workshop_download_item 221100 2270215132 +quit
