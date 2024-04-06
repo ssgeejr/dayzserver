@@ -14,6 +14,7 @@ Dabs Framework			2545327648
 DayZ-Expansion-Core		2291785308
 zSpawnSelection			2017605880
 DayZ-Expansion			2116151222
+WhetStonePlus			2137544563
 
 
 /opt/servers/steamcmd/steamcmd.sh  +force_install_dir /opt/servers/dayz-server/mods +login $STEAMUSER +workshop_download_item 221100 2521460498 +quit
@@ -23,6 +24,7 @@ DayZ-Expansion			2116151222
 /opt/servers/steamcmd/steamcmd.sh  +force_install_dir /opt/servers/dayz-server/mods +login $STEAMUSER +workshop_download_item 221100 2291785308 +quit
 /opt/servers/steamcmd/steamcmd.sh  +force_install_dir /opt/servers/dayz-server/mods +login $STEAMUSER +workshop_download_item 221100 2017605880 +quit
 /opt/servers/steamcmd/steamcmd.sh  +force_install_dir /opt/servers/dayz-server/mods +login $STEAMUSER +workshop_download_item 221100 2116151222 +quit
+/opt/servers/steamcmd/steamcmd.sh  +force_install_dir /opt/servers/dayz-server/mods +login $STEAMUSER +workshop_download_item 221100 2137544563 +quit
 
 cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2521460498/keys/*.bikey /opt/servers/dayz-server/keys/
 cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/1797720064/Keys/*.bikey /opt/servers/dayz-server/keys/
@@ -31,6 +33,7 @@ cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2545327648/ke
 cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2291785308/keys/*.bikey /opt/servers/dayz-server/keys/
 cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2017605880/Keys/*.bikey /opt/servers/dayz-server/keys/
 cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2116151222/keys/*.bikey /opt/servers/dayz-server/keys/
+cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2137544563/keys/*.bikey /opt/servers/dayz-server/keys/
 
 mv /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2521460498 /opt/servers/dayz-server/mods/@ImmersivePlacing
 mv /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/1797720064 /opt/servers/dayz-server/mods/@WindstridesClothingPack
@@ -39,6 +42,7 @@ mv /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2545327648 /o
 mv /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2291785308 /opt/servers/dayz-server/mods/@DayZExpansionCore
 mv /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2017605880 /opt/servers/dayz-server/mods/@zSpawnSelection
 mv /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2116151222 /opt/servers/dayz-server/mods/@DayZExpansion
+mv /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2137544563 /opt/servers/dayz-server/mods/@WhetStonePlus
 
 rm -rf /opt/servers/dayz-server/mods/steamapps
 
