@@ -48,7 +48,5 @@ mv /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2137544563 /o
 mv /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/1816010715 /opt/servers/dayz-server/mods/@NoSprintingZombies
 
 
-
-
 rm -rf /opt/servers/dayz-server/mods/steamapps
 
