@@ -33,7 +33,7 @@ cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2545327648/ke
 cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2291785308/keys/*.bikey /opt/servers/dayz-server/keys/
 cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2017605880/Keys/*.bikey /opt/servers/dayz-server/keys/
 cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2116151222/keys/*.bikey /opt/servers/dayz-server/keys/
-cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2137544563/keys/*.bikey /opt/servers/dayz-server/keys/
+cp /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2137544563/Keys/*.bikey /opt/servers/dayz-server/keys/
 
 mv /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/2521460498 /opt/servers/dayz-server/mods/@ImmersivePlacing
 mv /opt/servers/dayz-server/mods/steamapps/workshop/content/221100/1797720064 /opt/servers/dayz-server/mods/@WindstridesClothingPack
