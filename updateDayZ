@@ -1,0 +1,5 @@
+#!/bin/bash
+#https://steamdb.info/app/223350/
+clear
+echo "*Updateing DAYZ to the latest release - Mods not updated*"
+/opt/servers/steamcmd/steamcmd.sh  +force_install_dir /opt/servers/dayz-server +login $STEAMUSER +app_update 223350 validate +quit
